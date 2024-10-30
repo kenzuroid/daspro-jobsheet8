@@ -4,7 +4,7 @@ public class RataNilai22 {
         Scanner sc = new Scanner(System.in);
 
         int i, j;
-        float nilai, nilaiMhs, totalNilai, rataNilai;
+        float nilaiMhs, totalNilai, rataNilai;
 
         i=1;
         while (i<=5) {
@@ -14,10 +14,10 @@ public class RataNilai22 {
                 System.out.print("Nilai ke-" + j + " = ");
                 nilaiMhs = sc.nextInt();
                 totalNilai += nilaiMhs;
-        }
+             }
         rataNilai=totalNilai/5;
         i++;
         System.out.println("Rata-rata Nilai Mahasiswa ke-" + i + " adalah " + rataNilai);
-    } 
+        } 
     }
 }
